@@ -1,2 +1,2 @@
-# Pizazilla-.
-This is a Pizza website that I have created using a combination of HTML, CSS, and JavaScript.
+# FAQ Section-.
+This is the FAQ Section to a restaurant website that I am creating.
