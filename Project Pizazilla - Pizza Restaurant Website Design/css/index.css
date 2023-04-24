@@ -1,0 +1,140 @@
+/* Index Page CSS Code. */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers &display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+.about-us:hover {
+	font-style: italic;
+}
+
+.menu:hover {
+	font-style: italic;
+}
+
+.ingredients:hover {
+	font-style: italic;
+}
+
+.location:hover {
+	font-style: italic;
+}
+
+.register:hover {
+	font-style: italic;
+}
+
+.search {
+  position: relative;
+  height: 50px;
+}
+
+.search .input {
+  background-color: #fff;
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.3s ease;
+}
+
+.btn {
+  background-image: linear-gradient(10deg, #7d5fff, #7158e2);
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active .input {
+  width: 200px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+}
+
+.nav {
+  position: fixed;
+  background-color: #222;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s ease-in-out;
+  font-family: 'Raleway';
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+
+.social {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all .3s ease-in-out;
+}
+
+.nav.active {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba (0,0,0,0.3);
+}
+
+.nav.active a {
+  color: black;
+}
+
+
+.nav a.current, .nav a:hover {
+  color: #ff8c00;
+  font-weight: bold;
+}
+
+.box {
+ transform: translateX(200%); 
+ transition: transform 0.4s ease;
+}
+
+.box.show {
+  transform: translateX(0);
+}
